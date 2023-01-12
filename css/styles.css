@@ -1,0 +1,10 @@
+* 
+body {
+background-color:rgb(255, 255, 255);
+}
+
+.yläpalkki {
+    background-color: lightblue;
+    text-align: center;
+    margin: 0px;
+}
