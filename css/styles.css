@@ -1,10 +1,130 @@
-* 
-body {
-background-color:rgb(255, 255, 255);
+body, ul, li, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
 }
 
-.yläpalkki {
-    background-color: lightblue;
+header {
+    background-color: #538020;  
+    padding: 10px;
     text-align: center;
-    margin: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  header h1 {
+    color: #ffffff;
+    border: 3px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.banner {
+    position: relative;
+}
+.banner::before{
+    margin-top: 180px;
+}
+.banner img {
+    margin-top: 100px;
+    max-width: 100%;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.banner .welcome {
+    background-color: #FEB614;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    width: 40%;
+    left: 10px;
+    top: 40%;
+}
+.banner .welcome h2 {
+    font-size: 48px;
+}
+nav {
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a {
+    text-decoration: none;
+    color: #4B4B4B;
+}
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+main .mina li {
+    width: 40%;
+    display: inline-block;
+}
+main .mina article{
+    vertical-align: top;
+}
+main .mina .images {
+    text-align: center;
+}
+.tyokokemus {
+    margin: 80px auto;
+}
+.tyokokemus li {
+    border-radius: 30px;
+    width: 25%;
+    min-height: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    display: inline-block;
+    background: #538020;
+}
+.portfolio li {
+    border-radius: 30px;
+    width: 25%;
+    padding: 20px;
+    min-height: 300px;
+    display: inline-block;
+    background-color: aquamarine;
+}
+.yhteystiedot {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+.yhteystiedot h2 {
+    font-size: 36px;
+}
+.yhteystiedot li {
+    padding: 30px 0;
+    width: 25%;
+    display: inline-block;
+}
+
+footer {
+    background: #f63232;
+    color: white;
+    padding: 10px; 
+    text-align: center;
 }
