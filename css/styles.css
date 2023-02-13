@@ -24,9 +24,7 @@ header {
 .banner {
     position: relative;
 }
-.banner::before{
-    margin-top: 180px;
-}
+
 .banner img {
     margin-top: 100px;
     max-width: 100%;
@@ -34,6 +32,7 @@ header {
     opacity: 0.7;
 }
 .banner .welcome {
+    scroll-margin-top: 20rem; /* whatever is a nice number that gets you past the header */
     background-color: #FEB614;
     border-radius: 10px;
     color: white;
@@ -77,6 +76,9 @@ main {
     padding: 0 40px;
     box-sizing: border-box;
 }
+.mina {
+    scroll-margin-top: 10rem; /* whatever is a nice number that gets you past the header */
+}
 main .mina li {
     width: 40%;
     display: inline-block;
@@ -89,6 +91,7 @@ main .mina .images {
 }
 .tyokokemus {
     margin: 80px auto;
+    scroll-margin-top: 10rem; /* whatever is a nice number that gets you past the header */
 }
 .tyokokemus li {
     border-radius: 30px;
@@ -98,6 +101,9 @@ main .mina .images {
     padding: 20px;
     display: inline-block;
     background: #538020;
+}
+.portfolio {
+    scroll-margin-top: 10rem; /* whatever is a nice number that gets you past the header */
 }
 .portfolio li {
     border-radius: 30px;
