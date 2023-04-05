@@ -4,85 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivu 2</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>My web page</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>    
-    
-<header>
-    <h1>Mikko Ryyppö</h1>
-</header>
-<section class="banner">
-    <img src="img/karvinen-banner.jpg" alt="karvinen-banner">
-    <div class="welcome" id="welcome">
-        <h2>Hei minä olen Mikko</h2>
-        <p>Tässä vähän tietoa minusta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ut accusantium! Voluptas dolores officiis sit hic eius maiores culpa, sapiente eveniet quisquam perspiciatis explicabo veniam. Quasi nobis vero qui nulla.</p>
-    </div>
-</section>
-<nav class="main-nav">
-    <ul>
-        <li><a href="#welcome">Etusivu</a></li>
-        <li><a href="#mina">Minä</a></li>
-        <li><a href="#tyokokemus">Työkokemus</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-    </ul>
-</nav>
-<main>
-    <div class="mina" id="mina">
-        <ul>
-            <li>
-                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque nemo aperiam praesentium? Voluptate expedita accusantium quaerat nostrum voluptatem minima, laborum consequuntur voluptates nobis hic nam at maxime officia sint!</article>
-            </li>
-            <li class="images">
-                <img src="img/kokkikarvinen.jpg" alt="unikarvinen">
-            </li>
-        </ul>
-    </div>
-    <div class="tyokokemus" id="tyokokemus">
-        <ul>
-            <li>
-                <h3>Työ1</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-                <h3>Työ2</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-                <h3>Työ3</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-        </ul>
-    </div>
-    <div class="portfolio" id="portfolio">
-        <ul>
-            <li>
-                <h3>Portfolio1</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-                <h3>Portfolio2</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-                <h3>Portfolio3</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-        </ul>
-    </div>
-</main>
-<section class="yhteystiedot" id="yhteystiedot">
-    <h2>Ota yhteyttä!</h2>
-    <ul>
-        <li>email</li>
-        <li>puh</li>
-        <li>osoite</li>
-    </ul>
-</section>
-<footer>
-    <p class="copyright">Copyright 2023 Mikodemus</p>
-</footer>
 
+<body>
+
+    <!-- Burger menu start -->
+    <nav class="burger-menu">
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#mina">Minä</a></li>
+            <li><a href="#yhteydenotto">Yhdeydenotto</a></li>
+        </ul>
+    </nav>
+    <!-- Burger menu stop -->
+    
+    <header class="header-main">
+
+        <div class="header-logo">
+            <a href="#">
+                <img src="img/hacker.png" alt="hacker">
+                <h2>Mikko Ryyppö</h2>
+            </a>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#mina">Minä</a></li>
+                    <li><a href="#yhteydenotto">Yhdeydenotto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-sm">
+                <a href="#" class="header-sm-fb"></a>
+                <a href="#" class="header-sm-ig"></a>
+                <a href="#" class="header-sm-linkedin"></a>
+                <a href="#" class="header-sm-twitter"></a>
+            <div class="burger-menu-btn"></div>
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+    <main>
+            <div class="main-intro">
+                <h1>Mikko Ryyppö</h1>
+                <h2>ICT-asentaja</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Eos voluptatibus temporibus qui in aspernatur distinctio quia<br>nostrum reprehenderit quod? Reprehenderit.</p>
+                <a class="my-work" href="#">CV</a>
+            </div>
+            <div class="main-quote">            
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Eos voluptatibus temporibus qui in aspernatur distinctio quia<br>nostrum reprehenderit quod? Reprehenderit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Eos voluptatibus temporibus qui in aspernatur distinctio quia<br>nostrum reprehenderit quod? Reprehenderit.</p>
+            </div>
+        
+
+    </main>
+
+    <!-- Kategoria -->
+    <section class="index-category" id="portfolio">
+        <p>Portfolio</p>
+        <a href="https://it.esedu.fi/home/" target="_blank" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>It.esedu.fi</h3>
+        </a>
+        <a href="https://www.aitoikkuna.fi/" target="_blank" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>Aito ikkuna</h3>
+        </a>
+        <a href="https://www.mikkelinurheilusukeltajat.fi/" target="_blank" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>Mikkelin urheilusukeltajat</h3>
+        </a>
+    </section>
+
+
+    <!-- about -->
+    <section class="index-about" id="mina">
+
+        <div class="wrapper-main index-about-flex">
+            <div class="index-about-img">
+                <img src="img/datailua.jpeg" alt="datailua">
+            </div>
+            <div class="index-about-text">
+                <h2>Vähän minusta</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium doloribus animi officiis, laboriosam aliquid ex cupiditate dignissimos ad adipisci voluptates.<br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellendus dicta ex enim. Provident consequatur, facilis enim saepe magni sapiente.</p>
+                <a href="#">Get to know me</a>
+            </div>
+            <div class="index-about-skill">
+                <p>HTML & CSS</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill htmlcss"></div>
+                </div>
+                <p>Python</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill python"></div>
+                </div>
+                <p>Wordpress</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill wp"></div>
+                </div>
+                <p>Windows</p>
+                <div class="index-about-skill-bar">
+                    <div class="index-about-skill-bar-fill windows"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-main">
+        <div class="wrapper-main footer-main-flex">
+
+            <!-- <div class="footer-testemoni">
+                <img src="img/yksisarvinen.png" alt="testemoni">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="footer-testemoni">
+                <img src="img/unikarvinen.png" alt="testemoni">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="footer-testemoni">
+                <img src="img/yksisarvinen.png" alt="testemoni">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="footer-testemoni">
+                <img src="img/unikarvinen.png" alt="testemoni">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <a class="footer-getintouch" href="#">Get touch with me</a> -->
+
+            <div class="footer-sitemap" id="yhteydenotto">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Minä</a></li>
+                    <li><a href="#">Yhdeydenotto</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">It.esedu.fi</a></li>
+                    <li><a href="#">Aito ikkuna</a></li>
+                    <li><a href="#">Mikkelin urheilusukeltajat</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus neque est repellendus, iste et magni omnis nesciunt voluptas asperiores rerum sequi nihil quia quaerat nisi ducimus recusandae, rem dolores quod.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li><p>Get in touch
+                    <li><p>Puhelin</p></li>
+                    <li><p>Email</p></li>
+                    <li><p>Osoite</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>
