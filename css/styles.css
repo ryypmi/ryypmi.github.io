@@ -1,6 +1,6 @@
 :root {
     --site-color-01: orange;
-    --site-color-01-hover: #c13584;
+    --site-color-01-hover: #b17300;
 }
 
 body {
@@ -28,7 +28,7 @@ html {
 h1 {
     font-size: 26px;
     line-height: 32px;
-    color: #fff;
+    color: #cecece;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ h1 {
 h2 {
     font-size: 28px;
     line-height: 32px;
-    color: #fff;
+    color: #cecece;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ h2 {
 h3 {
     font-size: 26px;
     line-height: 32px;
-    color: #fff;
+    color: #cecece;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -55,7 +55,7 @@ h3 {
 p {
     font-size: 14px;
     line-height: 30px;
-    color: #fff;
+    color: #cecece;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -71,7 +71,7 @@ a {
 
 .footer-main {
     width: 100%;
-    padding: 60px 0 100px;
+    padding: 40px 0 40px;
     background-color: #141414;
 }
 
@@ -101,8 +101,8 @@ a {
 .footer-getintouch {
     padding: 10px 20px;
     margin: 0 0 60px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #cecece;
+    color: #cecece;
     font-weight: 600;
     transition: all ease-in-out 200ms;
 }
@@ -119,11 +119,11 @@ a {
 
 .footer-sitemap a {
     line-height: 30px;
-    color: #fff;
+    color: #cecece;
 }
 
 .footer-sitemap a:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .footer-sitemap ul:nth-child(1) {

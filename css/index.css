@@ -180,7 +180,7 @@ main .main-quote {
 .burger-menu ul {
     width: 100%;
     height: calc(100vh - 60px);
-    padding-top: 60px;
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -222,13 +222,20 @@ main .main-quote {
     scroll-margin-top: 2rem;
 }
 
-.index-category p {
+.index-category h2 {
     color: #1e1e1e;
     text-align: center;
     padding-bottom: 20px;    
     flex-basis: 100%;
     text-transform: uppercase;
-    font-size: 22px;
+}
+
+.index-category p {
+    color: #1e1e1e;
+    text-align: center;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    display: block;
 }
 
 .index-category-box {
@@ -309,6 +316,7 @@ main .main-quote {
 .index-about-text h2 {
     text-align: center;
     padding: 20px 0;
+    text-shadow: 3px 3px 10px orange;
 }
 .index-about-text p {
     text-align: center;
@@ -361,10 +369,10 @@ main .main-quote {
 
 
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 1200px) {
 
     .wrapper-main {
-        width: 800px;
+        width: 1100px;
         margin: 0 auto;
     }
 
@@ -443,13 +451,18 @@ main .main-quote {
         row-gap: 20px;
     }
     
-    .index-category p {
+    .index-category h2 {
         padding-bottom: 40px;
     }
     
     .index-category-box {
         width: 300px;
         height: 300px;
+        border-radius: 150px;   
+    }
+
+    .dark-overlay {
+        border-radius: 150px;
     }
     
     
@@ -515,13 +528,7 @@ main .main-quote {
     }
 
     /* Footer */
-
-    .footer-main {
-        width: 100%;
-        padding: 60px 0 100px;
-        background-color: #141414;
-    }
-    
+  
 
     .footer-getintouch {
         margin: 40px 0 60px;
@@ -558,10 +565,10 @@ main .main-quote {
 
 /* KÄNNYKKÄ */
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
 
     .wrapper-main {
         width: 1100px;
         margin: 0 auto;
     }
-}
+} */
