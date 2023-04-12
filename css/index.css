@@ -213,7 +213,7 @@ main .main-quote {
 
 .index-category {
     width: 100%;
-    padding: 40px 0 20px;
+    padding: 40px 0 40px;
     background-color: #d4d4d4;
     display: flex;
     justify-content: center;
@@ -318,26 +318,29 @@ main .main-quote {
     padding: 20px 0;
     text-shadow: 3px 3px 10px orange;
 }
+
+.index-about-text h3 {
+    text-align: center;
+    height: 105px;
+    font-size: 24px;
+    padding: 20px 0;
+    text-shadow: 3px 3px 10px orange;
+}
+
+.index-about-skill h3 {
+    font-size: 24px;
+    padding: 20px 0;
+    text-shadow: 3px 3px 10px orange;
+}
+
 .index-about-text p {
     text-align: center;
     padding: 20px 0;
 }
 
-.index-about-text a {
-    margin: 0 auto;
-    font-size: 18px;
-    display: block;
-    background-color: var(--site-color-01);
-    padding: 10px 20px;
-    width: fit-content;
-}
-
-.index-about-text a:hover {
-    background-color: var(--site-color-01-hover);
-}
-
 .index-about-skill {
     flex-basis: 350px;
+    margin: 0px 5px;
 }
 
 .index-about-skill-bar {
@@ -351,20 +354,100 @@ main .main-quote {
     background-color: orange;
 }
 
-.htmlcss {
-    width: 80%;
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 90%;
+}
+
+.wp {
+    width: 90%;
+}
+
+.bs {
+    width: 60%;
+}
+
+.ad {
+    width: 60%;
+}
+
+.verk {
+    width: 70%;
+}
+
+.lan {
+    width: 70%;
+}
+
+.dhcp {
+    width: 70%;
 }
 
 .python {
     width: 60%;
 }
+.cplusplus {
+    width: 40%;
+}
 
-.wp {
-    width: 70%;
+.ohlait {
+    width: 100%;
 }
 
 .windows {
-    width: 90%;
+    width: 100%;
+}
+
+/* TYÖKOKEMUS */
+
+.index-tyokokemus {
+    width: 100%;
+    padding: 40px 0 40px;
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    scroll-margin-top: 2rem;
+}
+
+.index-tyokokemus h2 {
+    color: #1e1e1e;
+    text-align: center;
+    padding-bottom: 20px;    
+    flex-basis: 100%;
+    text-transform: uppercase;
+}
+
+.index-tyokokemus p {
+    color: #1e1e1e;
+    text-align: center;
+    flex-basis: 100%;
+    display: block;
+}
+
+.index-tyokokemus-box {
+    display: flex;
+}
+
+.index-tyokokemus-box-img {
+    display: none;
+}
+
+.index-tyokokemus-box-text {
+    width: 100%;
+}
+
+.index-tyokokemus-box-text h3 {
+    color: #1e1e1e;
+    padding: 30px 0 10px;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    z-index: 100;
 }
 
 
@@ -465,13 +548,10 @@ main .main-quote {
         border-radius: 150px;
     }
     
-    
-
-
     /* About section */
     
     .index-about-flex {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         display: flex;
         column-gap: 60px;
     }
@@ -486,7 +566,7 @@ main .main-quote {
     }
 
     .index-about-text {
-        flex-basis: 455px;
+        flex-basis: 740px;
     }
 
     .index-about-text h2 {
@@ -499,21 +579,9 @@ main .main-quote {
         padding: 20px 0;
     }
 
-    .index-about-text a {
-        margin: 0;
-        font-size: 18px;
-        display: block;
-        background-color: var(--site-color-01);
-        padding: 10px 20px;
-        width: fit-content;
-    }
-
-    .index-about-text a:hover {
-        background-color: var(--site-color-01-hover);
-    }
-
     .index-about-skill {
-        flex-basis: 350px;
+        flex-basis: 326px;
+        margin: 0;
     }
 
     .index-about-skill-bar {
@@ -527,13 +595,70 @@ main .main-quote {
         background-color: orange;
     }
 
-    /* Footer */
-  
-
-    .footer-getintouch {
-        margin: 40px 0 60px;
+    .index-about-skill h3 {
+        font-size: 24px;
+        text-align: center;
+        text-shadow: 3px 3px 10px orange;
     }
 
+    /* TYÖKOKEMUS */
+
+    .index-tyokokemus {
+        padding: 60px 0;
+        width: 100%;
+        background-color: #d4d4d4;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        scroll-margin-top: 2rem;
+    }
+    
+    .index-tyokokemus h2 {
+        padding-bottom: 40px;
+        color: #1e1e1e;
+        text-align: center;   
+        flex-basis: 100%;
+        text-transform: uppercase;
+    }
+
+    .index-tyokokemus-box h3 {
+        display: flex;
+        color: #1e1e1e;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: left;
+        z-index: 100;
+    }
+
+    .index-tyokokemus p {
+        color: #1e1e1e;
+        text-align: left;
+        flex-basis: 100%;
+        display: block;
+    }
+    
+    .index-tyokokemus-box {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .index-tyokokemus-box-img {
+        display: block; 
+        width: 200px;
+    }
+    
+    .index-tyokokemus-box-img img {    
+        width: 100%;
+    }
+
+    .index-tyokokemus-box-text {    
+        padding-left: 20px;
+    }
+
+
+    /* Footer */
+  
     .footer-sitemap {
         flex-wrap: nowrap;
     }
@@ -549,19 +674,22 @@ main .main-quote {
     }
 
     .footer-sitemap ul:nth-child(3) {
-        flex-basis: 450px;
-        text-align: left;
+        flex-basis: 660px;
+        text-align: right;
     }
 
     .footer-sitemap p {
         padding: 0;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
     }
 
     .footer-sitemap ul:nth-child(4) p {
+        flex-basis: 880px;
         text-align: right;
     }
 }
+
+
 
 /* KÄNNYKKÄ */
 
