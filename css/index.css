@@ -28,6 +28,11 @@ main .main-intro h2 {
     margin: 0 20px;
 }
 
+main .main-intro p {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
 main p {
     text-align: center;
     padding: 0 10%;
@@ -57,7 +62,7 @@ main .main-quote {
     display: none;
 }   
 
-
+/* HEADER */
 
 .header-main {
     position: fixed;
@@ -234,8 +239,8 @@ main .main-quote {
     color: #1e1e1e;
     text-align: center;
     flex-basis: 100%;
-    text-transform: uppercase;
     display: block;
+    font-size: 18px;
 }
 
 .index-category-box {
@@ -286,6 +291,7 @@ main .main-quote {
 }
 
 /* About section */
+
 .index-about {
     width: 100%;
     padding: 60px 0 ;
@@ -323,6 +329,13 @@ main .main-quote {
     text-align: center;
     height: 105px;
     font-size: 24px;
+    padding: 20px 0;
+    text-shadow: 3px 3px 10px orange;
+}
+
+.it-taidot {
+    flex-basis: 100%;
+    text-align: center;
     padding: 20px 0;
     text-shadow: 3px 3px 10px orange;
 }
@@ -378,12 +391,12 @@ main .main-quote {
     width: 70%;
 }
 
-.lan {
-    width: 70%;
+.server {
+    width: 50%;
 }
 
-.dhcp {
-    width: 70%;
+.git {
+    width: 50%;
 }
 
 .python {
@@ -493,16 +506,30 @@ main .main-quote {
 
     main {
         background-position: bottom, center;
+        display: block;
     }
 
     main .main-intro h1 {
         font-size: 80px;
         line-height: 106px;
+
+    }
+
+    main .main-intro h2 {
     }
 
     main p {
+        text-align: left;
         font-size: 18px;
-        line-height: 30px;        
+        line-height: 30px;
+        padding: 0;      
+    }
+
+    main .main-intro p {
+        font-size: 24px;
+        text-align: center;
+        padding-top: 20px;
+        line-height: 30px;
     }
     
     main .main-quote p {
@@ -511,20 +538,26 @@ main .main-quote {
         margin: 40px 0;
     }  
 
-    main .main-quote p:nth-child(2) {
-        margin-left: 60px;
+    /* main .main-quote p:nth-child(2) {
+        margin-left: 20px;
     }
+    main .main-quote p:nth-child(3) {
+        margin-left: 40px;
+    } */
 
     main .main-quote {
+        display: block;
+    }
+    main .main-content a {
         display: inline-block;
-        padding-top: 15vh;
-        padding-left: 20vh;
     }
 
     main .main-intro {
-        padding-top: 0;
-        padding-right: 20vh;
-        padding-bottom: 20vh;
+        display: inline-block;
+    }
+
+    .main-content {
+        padding-left: 50px;
     }
 
     /* Kategoria */
@@ -629,6 +662,7 @@ main .main-quote {
         line-height: 28px;
         text-align: left;
         z-index: 100;
+        padding: 0;
     }
 
     .index-tyokokemus p {
@@ -653,7 +687,7 @@ main .main-quote {
     }
 
     .index-tyokokemus-box-text {    
-        padding-left: 20px;
+        padding-left: 40px;
     }
 
 
